@@ -1,0 +1,32 @@
+.table{
+    width: 80%!important;
+    margin-left: 10%;
+}
+.searchbar input[type="search"]{
+    width: 20%;
+    cursor: text;
+}
+.searchbar input[type="submit"]{
+    width: 8%;
+}
+.searchbar input[type="submit"]:hover{
+    border: solid gray 1px;
+    color: gray;
+}
+@media only screen and (min-width: 700px) {
+    .table-responsive{
+    width: 80%;
+    margin-left: 10%;   
+    }
+}
+@media only screen and (max-width: 600px) {
+    .table-responsive{
+      font-size: small;
+    }
+    .searchbar input[type="search"]{
+        width: 30%;
+    }
+    .searchbar input[type="submit"]{
+        width: 15%;
+    }
+    }
